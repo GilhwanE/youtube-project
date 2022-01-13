@@ -1,6 +1,6 @@
-## youtube project
+<<<<<<< HEAD
 
----
+# youtube project
 
 - 목표
 
@@ -18,6 +18,6 @@
 
 ---
 
-Youtube API 연결하기
+### Youtube API 연결하기
 
-1. Google Dev key 값
+1.  Google Dev key 값
