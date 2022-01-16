@@ -1,0 +1,9 @@
+.contanier {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 0 2rem;
+  border-top: 1px solid lightcoral;
+  padding-top: 70px;
+  grid-gap: 30px;
+}

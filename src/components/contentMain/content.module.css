@@ -1,0 +1,30 @@
+.video {
+  width: auto;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+  transition: transform 250ms ease-in;
+  -webkit-box-shadow: 5px 5px 12px -2px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 12px -2px rgba(0, 0, 0, 0.8);
+}
+
+.video:hover {
+  transform: scale(1.1);
+}
+
+.thumbnails {
+  width: 100%;
+}
+
+.video_text {
+  width: 90%;
+  padding: 5px;
+}
+
+.video_title {
+  font-weight: 600;
+}
+
+.video_subtitle {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+}
