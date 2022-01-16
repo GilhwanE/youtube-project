@@ -1,35 +1,26 @@
 import React, { Component } from 'react';
+import styles from './header.module.css';
 
-class Header extends Component {
-  state = {
-    name: '',
-  };
-  serachbtn = (event) => {
-    this.setState({ [event.target.name]: event.target.value });
-    console.log(this.value);
-  };
+const SerachHeader = (props) => {
+  return (
+    <>
+      <header className={styles.hedaer_nav}>
+        <img src="/images/logo.png" alt="logo" />
+        <h1>Youtube</h1>
 
-  render() {
-    return (
-      <>
-        <header className="header-nav">
-          <img src="../logo.png" alt="logo" />
-          <h1>Youtube</h1>
+        <div className={styles.input_serach}>
+          <input type="text" placeholder="검색어 입력" />
+          <button
+            type="submit"
+            className={styles.header_btn}
+            img
+            src="/images/serach.png"
+            alt="serach"
+          ></button>
+        </div>
+      </header>
+    </>
+  );
+};
 
-          <div className="input-serach">
-            <input type="text" placeholder="검색어 입력" />
-            <button
-              type="button"
-              className="header-btn"
-              onClick={this.serachbtn}
-            >
-              검색
-            </button>
-          </div>
-        </header>
-      </>
-    );
-  }
-}
-
-export default Header;
+export default SerachHeader;
