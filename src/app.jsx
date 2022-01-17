@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import './app.css';
 import ContentList from './components/contentList/contentList';
-import Content from './components/contentMain/contnent';
-import SerachHeader from './components/header';
+import SerachHeader from './components/serachHeader/header';
 
 function App() {
   const [videos, setVideos] = useState([]); // useState videos는 상태 setVideos 상태 업데이트임
