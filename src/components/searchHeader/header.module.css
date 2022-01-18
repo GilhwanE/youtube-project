@@ -1,0 +1,30 @@
+.hedaer_nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  padding: 0.8rem 1.5rem;
+
+  flex-direction: row;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.input_search {
+  max-width: 400px;
+  flex-basis: 100%;
+  padding-left: 0.7rem;
+  font-size: 1.2rem;
+  outline: 0;
+}
+
+.header_btn img {
+  height: 100%;
+  padding: 0.5em;
+}
