@@ -3,11 +3,17 @@ import Contnent from '../contentMain/contnent';
 import styles from './contentList.module.css';
 
 const ContentList = (
-  props // videos가 props로 전달 그리고 전달받은 props가 사용되는거지 ?
+  { videos, onVideoClick, display } // videos가 props로 전달 그리고 전달받은 props가 사용되는거지 ?
 ) => (
+  // deconstructing을 이용하여
   <ul className={styles.contanier}>
-    {props.videos.map((video) => (
-      <Contnent key={video.id} video={video} />
+    {videos.map((video) => (
+      <Contnent
+        key={video.id}
+        video={video}
+        onVideoClick={onVideoClick}
+        display={display}
+      />
     ))}
   </ul>
 );
