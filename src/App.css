@@ -2,3 +2,20 @@
 * {
   box-sizing: border-box;
 }
+
+.content {
+  display: flex;
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content_detail {
+  width: 100%;
+}
+.content_detail {
+  flex: 1 1 80%;
+}
+
+.content_list {
+  flex: 1 1 20%;
+}

@@ -1,13 +1,13 @@
-.contanier {
-  display: grid;
+/* .contanier {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   margin: 0 2rem;
-  border-top: 1px solid lightcoral;
-  padding-top: 90px;
   grid-gap: 30px;
-}
+} */
 
+.contanier.list {
+  background-color: cadetblue;
+}
 @media screen and (max-width: 512px) {
   .contanier {
     display: block;
