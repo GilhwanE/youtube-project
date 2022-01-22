@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-
+URL :  https://gilhwane.github.io/youtube-project/
 # youtube project
 
 - 목표
